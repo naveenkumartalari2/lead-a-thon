@@ -1,0 +1,22 @@
+{
+  "name": "leadathon",
+  "version": "1.0.0",
+  "description": "lead-a-thon hiring challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js"
+  },
+  "author": "naveen kumar talari",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.2",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "node-cache": "^5.1.2",
+    "node-html-parser": "^5.2.0",
+    "superagent": "^6.1.0"
+  }
+}
